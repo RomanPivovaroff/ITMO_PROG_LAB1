@@ -1,4 +1,3 @@
-import java.lang.Math;
 public class Main {
   public static double zapolnenie(double x, int z){ // метод для заполнения масива z1
 	return switch (z) { //заполнение массива z1 в зависимости от значений массива z
