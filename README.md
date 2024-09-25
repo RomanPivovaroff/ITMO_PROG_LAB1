@@ -18,7 +18,6 @@ public class Main {
       System.out.println(); // перевод на новую строку.
         }
   }
-  
     public static void main(String[] args) {
         int[] z = new int[15]; // создаем масив z с типом эл. int т.к. его мы заполним числами от 4 до 18
         double[] x = new double[20]; // создаем масив x с типом эл. double
@@ -26,11 +25,9 @@ public class Main {
         for (int i = 4; i <= 18; i++) { // заполнение массива z
             z[i - 4] = i;
         }
-
         for (int i = 0; i < 20; i++) { // заполнение массива x
             x[i] = Math.random() * 9 - 4;
         }
-    
         for (int i = 0; i < 15; i++) { // заполнение массива z1 c помощью метода zapolnenie
             for (int j = 0; j < 20; j++) {
         z1[i][j] = zapolnenie(x[j],z[i]);
